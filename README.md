@@ -16,7 +16,7 @@
 
 - Edit `android/app/build.gradle`:
 ```diff
-  apply plugin: "com.android.application"
+// Add to the bottom of the file so that no dependency collisions are introduced
 + apply plugin: 'com.google.gms.google-services'
 ```
 
